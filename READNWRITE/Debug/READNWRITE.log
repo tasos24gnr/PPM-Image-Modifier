@@ -1,0 +1,33 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (NegativePPM.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  main.cpp
+c:\users\tasos\desktop\readnwrite\readnwrite\image.h(102): warning C4018: '<': signed/unsigned mismatch
+c:\users\tasos\desktop\readnwrite\readnwrite\image.h(103): warning C4018: '<': signed/unsigned mismatch
+c:\users\tasos\desktop\readnwrite\readnwrite\image.h(137): warning C4018: '<': signed/unsigned mismatch
+c:\users\tasos\desktop\readnwrite\readnwrite\image.h(138): warning C4018: '<': signed/unsigned mismatch
+c:\users\tasos\desktop\readnwrite\readnwrite\filter.h(40): warning C4018: '<': signed/unsigned mismatch
+c:\users\tasos\desktop\readnwrite\readnwrite\filter.h(41): warning C4018: '<': signed/unsigned mismatch
+c:\users\tasos\desktop\readnwrite\readnwrite\filter.h(81): warning C4018: '<': signed/unsigned mismatch
+c:\users\tasos\desktop\readnwrite\readnwrite\filter.h(82): warning C4018: '<': signed/unsigned mismatch
+c:\users\tasos\desktop\readnwrite\readnwrite\filter.h(94): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\tasos\desktop\readnwrite\readnwrite\main.cpp(57): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\tasos\desktop\readnwrite\readnwrite\main.cpp(62): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\tasos\desktop\readnwrite\readnwrite\main.cpp(63): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\tasos\desktop\readnwrite\readnwrite\main.cpp(64): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\tasos\desktop\readnwrite\readnwrite\main.cpp(65): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\tasos\desktop\readnwrite\readnwrite\main.cpp(66): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\tasos\desktop\readnwrite\readnwrite\main.cpp(67): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\tasos\desktop\readnwrite\readnwrite\array.h(60): warning C4018: '<': signed/unsigned mismatch
+  c:\users\tasos\desktop\readnwrite\readnwrite\array.h(53): note: while compiling class template member function 'void math::Array<imaging::Color>::setData(const std::vector<T,std::allocator<_Ty>> &)'
+          with
+          [
+              T=imaging::Color,
+              _Ty=imaging::Color
+          ]
+  c:\users\tasos\desktop\readnwrite\readnwrite\array.h(85): note: see reference to function template instantiation 'void math::Array<imaging::Color>::setData(const std::vector<T,std::allocator<_Ty>> &)' being compiled
+          with
+          [
+              T=imaging::Color,
+              _Ty=imaging::Color
+          ]
+  c:\users\tasos\desktop\readnwrite\readnwrite\image.h(39): note: see reference to class template instantiation 'math::Array<imaging::Color>' being compiled
+  READNWRITE.vcxproj -> C:\Users\Tasos\Desktop\READNWRITE\READNWRITE\ppm\Debug\neg.exe

@@ -1,0 +1,3 @@
+﻿  ppm.cpp
+ppm.cpp(210): warning C4244: '=': conversion from 'float' to 'unsigned char', possible loss of data
+  ppm.vcxproj -> C:\Users\Tasos\source\repos\READNWRITE\READNWRITE\ppm\ppm\ppm.lib
